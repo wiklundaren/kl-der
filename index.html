@@ -1,19 +1,24 @@
 <html> 
     <head>
-        <script>
+            <script>
         
-            var pass = promt("lösen: ");
-        
-            if(pass == "ada" || pass == "glenn"){
-                alert("inloggad som göteborgare!");
-                } else if(pass == "admin" {
-                          alert("inloggad som admin")
-                alert("icke, sa nicke!");
-            } 
+            var age = prompt("ålder: ");
             
-        </script>
+            if(age < 7){
+                film = "pettsson och findus";
+            }else if(age< 14) {
+                film = "frost";
+            }else{
+                film = "sjunde inseglet";
+            }else if(age< 18) {
+                film = "nalle puh"
+            }
+            
+            alert("rekommenderad film: " + film);
+            </script>
     </head>
     <body>
           
     </body>
 </html>
+
