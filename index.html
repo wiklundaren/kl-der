@@ -2,20 +2,23 @@
     <head>
             <script>
         
-            var age = prompt("ålder: ");
+            var dcel = prompt("hur varmt är det: "), 
+            if(cel < 10){
             
-            if(age < 7){
-                film = "pettsson och findus";
-            }else if(age< 14) {
-                film = "frost";
-            }else{
-                film = "sjunde inseglet";
-            }else if(age< 18) {
-                film = "nalle puh"
+                    cel = "vinterjacka";
+                }
+            }else if(cel < 15) {
+                cel = "tjocktröja";
+            }else if(cel < 20) {
+                cel = "t-shirt"
+            }else if(cel < 30) {
+                cel = "badbyxor";
             }
             
-            alert("rekommenderad film: " + film);
-            </script>
+            alert("rekommenderad cel: " + cel);
+                
+            
+         </script>
     </head>
     <body>
           
